@@ -6,7 +6,7 @@
       "right": 8,
       "left": 5
     },
-    "type": "small"
+    "type": "builtin"
   },
   "modules": [
     "break",
