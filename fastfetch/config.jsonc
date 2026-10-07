@@ -6,11 +6,12 @@
       "right": 8,
       "left": 7
     },
-    "type": "small",
     "color": {
       "1": "yellow",
       "2": "yellow"
-    }
+    },
+    "type": "small",
+    "source": "alpine"
   },
   "modules": [
     "break",
