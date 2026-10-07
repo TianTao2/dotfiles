@@ -1,0 +1,34 @@
+// Minimal UI
+default_layout "compact"
+pane_frames false
+pane_viewport_serialization true
+
+auto_layout false
+//Keep session alive after closing
+on_force_close "detach"
+
+// Don't show the built-in status bar
+ui {
+    pane_frames false
+}
+
+keybinds {
+    //Main mode
+    normal {
+        bind "Alt h" { MoveFocus "Left"; }
+        bind "Alt j" { MoveFocus "Down"; }
+        bind "Alt k" { MoveFocus "Up"; }
+        bind "Alt l" { MoveFocus "Right"; }
+
+        bind "Alt n" { NewPane; }
+        bind "Alt x" { CloseFocus; }
+        bind "Ctrl w" { CloseFocus; }
+        bind "Alt Shift f" { ToggleFocusFullscreen; }
+
+        bind "Alt Shift t" { NewTab; }
+        bind "Alt Shift x" { CloseTab; }
+
+        bind "Alt -" { Resize "Decrease"; }
+        bind "Alt ." { Resize "Increase"; }
+    }
+}
