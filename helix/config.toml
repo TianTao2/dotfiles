@@ -1,0 +1,50 @@
+#https://helix-editor.vercel.app/reference/list-of-themes
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+cursorline = true #Highlight line the cursor is on
+rulers = [ 100 ]
+true-color = true
+
+#bufferline = "multiple"
+color-modes = true
+text-width = 100
+
+end-of-line-diagnostics = "hint"
+auto-info = true
+
+completion-timeout = 5
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+#Add git-status to statusline
+[editor.statusline]
+left = [ "mode", "spinner", "version-control", "file-name", "read-only-indicator", "file-modification-indicator" ]
+
+[editor.soft-wrap]
+enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "hint"
+
+[editor.lsp]
+enable = true
+
+display-messages = true
+display-progress-messages = true
+
+auto-signature-help = true
+
+display-inlay-hints = true
+display-signature-help-docs = true
+snippets = true
+goto-reference-include-declaration = true
