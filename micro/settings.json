@@ -1,0 +1,12 @@
+{
+	"colorcolumn": 100,
+    "diffgutter": true,
+    "colorscheme": "railscast",
+    //"colorscheme": "dukedark-tc",
+    "tabstospaces": true,
+    "tabsize": 4,
+
+    "filemanager.openontab": true,
+    "filemanager.showdotfiles": false,
+    "filemanager.showignored": false
+}
