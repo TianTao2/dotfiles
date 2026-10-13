@@ -33,8 +33,8 @@ left = [ "mode", "spinner", "version-control", "file-name", "read-only-indicator
 enable = true
 
 [editor.inline-diagnostics]
-cursor-line = "warning"
-other-lines = "hint"
+cursor-line = "hint"
+other-lines = "warning"
 
 [editor.lsp]
 enable = true
@@ -44,7 +44,7 @@ display-progress-messages = true
 
 auto-signature-help = true
 
-display-inlay-hints = true
+display-inlay-hints = false
 display-signature-help-docs = true
 snippets = true
 goto-reference-include-declaration = true
