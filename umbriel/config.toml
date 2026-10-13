@@ -138,6 +138,7 @@ sensitivity = 0.0
 "Mod+Return" = { action = "spawn:kitty", repeat = false }
 "Mod+Q" = { action = "window-close", repeat = false }
 "Mod+D" = { action = "spawn:noctalia msg panel-toggle launcher", repeat = false }
+"Mod+Alt+L" = { action = "spawn:loginctl lock-session", repeat = false }
 
 "Mod+Print" = "spawn:noctalia msg screenshot-region"
 "Alt+Tab" = "spawn:noctalia msg window-switcher hold"
