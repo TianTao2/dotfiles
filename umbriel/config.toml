@@ -144,7 +144,7 @@ sensitivity = 0.0
 "Alt+Tab" = "spawn:noctalia msg window-switcher hold"
 
 "Mod+Shift+Q" = "session-quit"
-"Mod+S" = "spawn:noctalia msg pannel-toggle session"
+"Mod+S" = "spawn:noctalia msg panel-toggle session"
 
 # Focus and movement
 "Mod+H" = "window-focus-left"
