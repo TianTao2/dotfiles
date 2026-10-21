@@ -56,7 +56,7 @@
     {
       "type": "terminalfont",
       "key": "  ",
-      "keyColor": "yellow"
+      "keyColor": "magenta"
     },
     {
       "type": "shell",
