@@ -102,9 +102,9 @@ curve = "easeout"
 follows_mouse = true
 
 [input.cursor]
-size = 24
+size = 36
 hardware_cursor = true
-follows_focus = true
+follows_focus = false
 
 [input.keyboard]
 repeat_rate = 35
