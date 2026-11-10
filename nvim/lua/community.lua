@@ -8,7 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  --{ import = "astrocommunity.colorscheme.gruvbox-nvim" },
+  --{ import = "astrocommunity.colorscheme.gruvbox-baby" },
   -- import/override with your plugins folder
 }
